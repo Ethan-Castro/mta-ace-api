@@ -1,0 +1,4 @@
+{
+  "feature_cols": ["avg_speed_mph", "trips_per_hour"],
+  "notes": "Target is mean weekly violations per route+hour; model ranks stop-hour risk."
+}
