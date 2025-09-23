@@ -25,4 +25,4 @@ HEALTHCHECK --interval=30s --timeout=5s --start-period=20s --retries=3 \
   CMD curl -fsS http://127.0.0.1:${PORT:-10000}/health || exit 1
 
 # Use shell form so $PORT expands on Render; default to 10000 locally
-CMD sh -c 'uvicorn app:app --host 0.0.0.0 --port ${PORT:-10000}'
+CMD sh -c 'uvicorn mta_models:app --host 0.0.0.0 --port ${PORT:-10000}'
