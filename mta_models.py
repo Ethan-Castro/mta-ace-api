@@ -22,7 +22,7 @@ Original file is located at
 # ============================================
 import os, warnings, datetime as dt
 import numpy as np, pandas as pd
-from shapely.geometry import Point
+# from shapely.geometry import Point
 import matplotlib.pyplot as plt
 from sqlalchemy import create_engine, text, inspect
 warnings.filterwarnings("ignore")
