@@ -21,7 +21,7 @@ Original file is located at
 # 1) Imports, DB Connection (READ-ONLY), Helpers
 # ============================================
 import os, warnings, datetime as dt
-import numpy as np, pandas as pd, geopandas as gpd
+import numpy as np, pandas as pd
 from shapely.geometry import Point
 import matplotlib.pyplot as plt
 from sqlalchemy import create_engine, text, inspect
